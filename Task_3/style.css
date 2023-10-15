@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 85vh;
+    background-color: #aeefa1;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+
+#fa{
+    font-size: 60px;
+}
+
+form{
+    background-color: #36c02e;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#tempCalc label{
+    font-size: 40px;
+}
+
+ [type="submit"]{
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(238, 60, 25);
+    color: white;
+} 
+
+#resultContainer{
+    font-size: 35px;
+}
